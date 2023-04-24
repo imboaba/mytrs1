@@ -1,3 +1,5 @@
+#提取TrsData.bin中未翻译的文本
+
 import pandas as pd
 import json
 def ifisallnum(x,special):#如果全是字母,数字和特殊符号，返回0，否则返回原字符串
