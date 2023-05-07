@@ -386,6 +386,7 @@ if a == 'y':
                 print('已将翻译数据保存在TrsData.bin_fail.txt内\r\n\r\n')
             input()
         target['src'] = allstr.replace('☆__', '\n').replace('↑__', '\r').rstrip('↑☆↓☆').split('↑☆↓☆')
+        if not ib:break
     #翻译完成，进入最终处理
     del target['2']
     #如果完整翻译了整个文件，直接导出
