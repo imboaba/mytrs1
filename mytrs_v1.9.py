@@ -20,7 +20,7 @@ def make_md5(s, encoding='utf-8'):
 # 返回字典数组，读取格式为return[i]['dst']
 def baidutrs(appid,appkey,from_lang,to_lang,query):
     # Generate salt and sign
-    url='http://api.fanyi.baidu.com/api/trans/vip/translate'
+    url='https://fanyi-api.baidu.com/api/trans/vip/translate'
     salt = random.randint(32768, 65536)
     sign = make_md5(appid + query + str(salt) + appkey)
     # Build request
