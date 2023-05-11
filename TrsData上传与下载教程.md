@@ -84,6 +84,7 @@
 3. 请在红框处确认信息是否正确。确认无误后点击Create pull requests
    ![image-20230511202550861](picture/image-20230511202550861.png)
 4. 请填写相关信息，填写完毕后点击Create pull requests提交
+   ![image-20230511210514371](picture/image-20230511210514371.png)
 5. 请记得确认管理员是否同意提交。若需要完善一些资料，请见[参考资料](##参考资料)中的Pull Request流程
 
 
